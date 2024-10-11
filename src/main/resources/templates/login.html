@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Логин</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+<div class="main">
+  <h1>Авторизация</h1>
+  <h3>Введите логин</h3>
+  <form action="">
+    <label for="first">
+      Логин:
+    </label>
+    <input type="text"
+           id="first"
+           name="first"
+           placeholder="Enter your Username" required>
+
+    <label for="password">
+      Пароль:
+    </label>
+    <input type="password"
+           id="password"
+           name="password"
+           placeholder="Enter your Password" required>
+
+    <div class="wrap">
+      <button type="submit"
+              onclick="solve()">
+        Отправить
+      </button>
+    </div>
+  </form>
+  <p>Не зарегистрирован?
+    <a href="/registration"
+       style="text-decoration: none;">
+      Создай аккаунт
+    </a>
+  </p>
+</div>
+</body>
+
+</html>
